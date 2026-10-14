@@ -435,7 +435,7 @@ h2 .hl{color:var(--v-light);}
 /* ─────────────────────────────────────────────
    PROJECTS
 ───────────────────────────────────────────── */
-.proj-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.25rem;}
+.proj-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;}@media(max-width:1000px){.proj-grid{grid-template-columns:1fr 1fr;}}@media(max-width:640px){.proj-grid{grid-template-columns:1fr;}}
 .proj-card{
   background:var(--glass);
   border:1px solid var(--border);
